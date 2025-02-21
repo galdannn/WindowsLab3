@@ -1,0 +1,15 @@
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Calculator.exe
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Calculator.deps.json
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Calculator.runtimeconfig.json
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Calculator.dll
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Calculator.pdb
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.dll
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\Calculator.dll
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.pdb
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\Calculator.dll
