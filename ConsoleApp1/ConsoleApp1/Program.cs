@@ -11,6 +11,8 @@
             calculator.Subtract(5);
             calculator.Add(20);
             calculator.ShowMemory();//sanah oindoo hadgalsan Result aa heden tsagt hiisen medeeleltei ni tsug hevlene.
+            Console.ReadLine();
+
         }
     }
 }
