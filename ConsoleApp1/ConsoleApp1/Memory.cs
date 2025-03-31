@@ -22,7 +22,14 @@ namespace Calculator
             memoryItems.Add(new MemoryItem(value));
             Console.WriteLine($"Stored: {value} at index {memoryItems.Count - 1}");
         }
-
+        public void AddToMemory(int index, double value)
+        {
+            if (IsValidIndex(index))
+            {
+                memoryItems[index] = new MemoryItem(memoryItems[index].Value + value);
+                Console.WriteLine($"Added {value} to memory at index {index}. New value: {memoryItems[index].Value}");
+            }
+        }
         public void DisplayMemory()
         {
             if (memoryItems.Count == 0)
