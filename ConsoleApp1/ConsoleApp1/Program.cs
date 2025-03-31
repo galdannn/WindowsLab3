@@ -14,8 +14,8 @@
             calculator.Add(25);
             calculator.StoreToMemory();
             calculator.ShowMemory();
-            calculator.AddToMemory(1, 5);
-            calculator.SubtractFromMemory(2, 10);
+            calculator.AddToMemory(0, 5);
+            calculator.SubtractFromMemory(1, 10);
             calculator.ShowMemory();
             calculator.RecallMemory(1);
             calculator.ClearMemory(0);
