@@ -30,6 +30,14 @@ namespace Calculator
                 Console.WriteLine($"Added {value} to memory at index {index}. New value: {memoryItems[index].Value}");
             }
         }
+        public void SubtractFromMemory(int index, double value)
+        {
+            if (IsValidIndex(index))
+            {
+                memoryItems[index] = new MemoryItem(memoryItems[index].Value - value);
+                Console.WriteLine($"Subtracted {value} from memory at index {index}. New value: {memoryItems[index].Value}");
+            }
+        }
         public void DisplayMemory()
         {
             if (memoryItems.Count == 0)
