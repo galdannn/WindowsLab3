@@ -20,14 +20,30 @@ namespace Calculator
         public void Store(double value)
         {
             memoryItems.Add(new MemoryItem(value));
+            Console.WriteLine($"Stored: {value} at index {memoryItems.Count - 1}");
         }
+
         public void DisplayMemory()
         {
-            Console.WriteLine("Memory:");
-            foreach (var item in memoryItems)
+            if (memoryItems.Count == 0)
             {
-                Console.WriteLine($"{item.Timestamp}: {item.Value}");
+                Console.WriteLine("Memory is empty.");
+                return;
             }
+
+            Console.WriteLine("Memory Items:");
+            for (int i = 0; i < memoryItems.Count; i++)
+            {
+                Console.WriteLine($"[{i}] {memoryItems[i].Timestamp}: {memoryItems[i].Value}");
+            }
+        }
+        private bool IsValidIndex(int index)
+        {
+            if (index >= 0 && index < memoryItems.Count)
+                return true;
+
+            Console.WriteLine($"Invalid index: {index}");
+            return false;
         }
     }
 }
