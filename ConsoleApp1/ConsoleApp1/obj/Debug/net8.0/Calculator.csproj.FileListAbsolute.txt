@@ -13,3 +13,12 @@ C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\re
 C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.pdb
 C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 C:\Users\galda\source\repos\Windows1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.csproj.AssemblyReference.cache
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.dll
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\Calculator.dll
+C:\Users\galda\source\repos\WindowsLab2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Calculator.pdb

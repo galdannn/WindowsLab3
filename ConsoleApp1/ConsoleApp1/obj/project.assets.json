@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CalculatorLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CalculatorLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CalculatorLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary2/CalculatorLibrary.csproj",
+      "msbuildProject": "../ClassLibrary2/CalculatorLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CalculatorLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\galda\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\Calculator.csproj",
-      "projectName": "Calculator",
-      "projectPath": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\CalculatorApp.csproj",
+      "projectName": "CalculatorApp",
+      "projectPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\CalculatorApp.csproj",
       "packagesPath": "C:\\Users\\galda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj": {
+              "projectPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

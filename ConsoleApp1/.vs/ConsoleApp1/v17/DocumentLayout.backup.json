@@ -1,30 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windows1\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B50814B-C879-478E-AF85-9248D9953C20}|CalcTest\\CalcTest.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\calctest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B50814B-C879-478E-AF85-9248D9953C20}|CalcTest\\CalcTest.csproj|solutionrelative:calctest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\classlibrary2\\basiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|solutionrelative:classlibrary2\\basiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\classlibrary2\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|solutionrelative:classlibrary2\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B50814B-C879-478E-AF85-9248D9953C20}|CalcTest\\CalcTest.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\calctest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B50814B-C879-478E-AF85-9248D9953C20}|CalcTest\\CalcTest.csproj|solutionrelative:calctest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\classlibrary2\\icalculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|solutionrelative:classlibrary2\\icalculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windows1\\consoleapp1\\consoleapp1\\basiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|solutionrelative:consoleapp1\\basiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\classlibrary2\\memoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|solutionrelative:classlibrary2\\memoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windows1\\consoleapp1\\consoleapp1\\abscalcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|solutionrelative:consoleapp1\\abscalcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B50814B-C879-478E-AF85-9248D9953C20}|CalcTest\\CalcTest.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\calctest\\calctest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B50814B-C879-478E-AF85-9248D9953C20}|CalcTest\\CalcTest.csproj|solutionrelative:calctest\\calctest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windows1\\consoleapp1\\consoleapp1\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|solutionrelative:consoleapp1\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\CalculatorApp.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\consoleapp1\\calculatorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\CalculatorApp.csproj|solutionrelative:consoleapp1\\calculatorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windows1\\consoleapp1\\consoleapp1\\memoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|solutionrelative:consoleapp1\\memoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\CalculatorLibrary.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\classlibrary2\\calculatorlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\CalculatorLibrary.csproj|solutionrelative:classlibrary2\\calculatorlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|c:\\users\\galda\\source\\repos\\windows1\\consoleapp1\\consoleapp1\\icalculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A9276A8-F1F0-4791-9597-65D02B206888}|ConsoleApp1\\Calculator.csproj|solutionrelative:consoleapp1\\icalculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|c:\\users\\galda\\source\\repos\\windowslab2\\consoleapp1\\classlibrary2\\abscalcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3B0F837-71F4-4A05-969C-6351FA4C75E2}|ClassLibrary2\\ClassLibrary2.csproj|solutionrelative:classlibrary2\\abscalcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\ICalculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\ICalculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\BasicCalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\BasicCalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\Memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\MemoryItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\MemoryItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\AbsCalcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\AbsCalcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +74,209 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MemoryItem.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\MemoryItem.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\MemoryItem.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\MemoryItem.cs",
-              "RelativeToolTip": "ConsoleApp1\\MemoryItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:54:24.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasicCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\BasicCalculator.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\BasicCalculator.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\BasicCalculator.cs",
-              "RelativeToolTip": "ConsoleApp1\\BasicCalculator.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwDMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:47:05.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AbsCalcs.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\AbsCalcs.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\AbsCalcs.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\AbsCalcs.cs",
-              "RelativeToolTip": "ConsoleApp1\\AbsCalcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:45:29.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:20:41.139Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Memory.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\Memory.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\Memory.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\Memory.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\Memory.cs",
+              "RelativeToolTip": "ClassLibrary2\\Memory.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA0wEIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:42:39.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICalculations.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\ICalculations.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\ICalculations.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\ICalculations.cs",
+              "RelativeToolTip": "ClassLibrary2\\ICalculations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:40:39.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\BasicCalculator.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\BasicCalculator.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\BasicCalculator.cs",
+              "RelativeToolTip": "ClassLibrary2\\BasicCalculator.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:41:28.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\Test1.cs",
+              "RelativeDocumentMoniker": "CalcTest\\Test1.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\Test1.cs",
+              "RelativeToolTip": "CalcTest\\Test1.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAjwGsAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:17:30.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:20:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\MemoryItem.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\MemoryItem.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\MemoryItem.cs",
+              "RelativeToolTip": "ClassLibrary2\\MemoryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:43:06.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalcTest",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
+              "RelativeDocumentMoniker": "CalcTest\\CalcTest.csproj",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
+              "RelativeToolTip": "CalcTest\\CalcTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T09:19:09.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "CalcTest\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\MSTestSettings.cs",
+              "RelativeToolTip": "CalcTest\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T09:17:04.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalculatorApp.csproj",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\CalculatorApp.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp1\\CalculatorApp.csproj",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\CalculatorApp.csproj",
+              "RelativeToolTip": "ConsoleApp1\\CalculatorApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T08:36:10.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CalculatorLibrary.csproj",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj",
+              "RelativeDocumentMoniker": "ClassLibrary2\\CalculatorLibrary.csproj",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj",
+              "RelativeToolTip": "ClassLibrary2\\CalculatorLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T08:42:27.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AbsCalcs.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\AbsCalcs.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\AbsCalcs.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\AbsCalcs.cs",
+              "RelativeToolTip": "ClassLibrary2\\AbsCalcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:38:11.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Memory.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Memory.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Memory.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\Memory.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Memory.cs",
               "RelativeToolTip": "ConsoleApp1\\Memory.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwEYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T09:49:23.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "MemoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\MemoryItem.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\MemoryItem.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\MemoryItem.cs",
+              "RelativeToolTip": "ConsoleApp1\\MemoryItem.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:54:24.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ICalculations.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\ICalculations.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\ICalculations.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\ICalculations.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\Windows1\\ConsoleApp1\\ConsoleApp1\\ICalculations.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\ICalculations.cs",
               "RelativeToolTip": "ConsoleApp1\\ICalculations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T09:43:57.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BasicCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\BasicCalculator.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\BasicCalculator.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\BasicCalculator.cs",
+              "RelativeToolTip": "ConsoleApp1\\BasicCalculator.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:47:05.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AbsCalcs.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\AbsCalcs.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\AbsCalcs.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\AbsCalcs.cs",
+              "RelativeToolTip": "ConsoleApp1\\AbsCalcs.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:45:29.599Z"
             }
           ]
         }
