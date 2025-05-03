@@ -12,46 +12,48 @@ namespace CalculatorLibrary
         public BasicCalculator()
         {
             memory = new Memory(); ///hereglegdeh memory object-ee shineer uusgej baigaa constructor
+           
         }
-
+        /// <summary>
+        /// tfhfhgfghfhg
+        /// </summary>
+        /// <param name="value"></param>
         public void Add(double value)
         {
             Result += value; ///gart baigaa utgiig avan ur dundee nemne
-            Console.WriteLine($"Result: {Result}");
         }
 
         public void Subtract(double value)
         {
             Result -= value; ///gart baigaa utgiig avan ur dungees hasna
-            Console.WriteLine($"Result: {Result}");
         }
 
-        public void StoreToMemory()  /// MS uildliig hiideg
+        public void MS()  /// MS uildliig hiideg
         {
             memory.Store(Result); 
         }
 
-        public void AddToMemory(int index, double value) /// M+ uildliig hiideg
+        public void MAdd(double value) /// M+ uildliig hiideg
         {
-            memory.AddToMemory(index, value);
+            memory.MAddLast( value);
         }
 
-        public void SubtractFromMemory(int index, double value) /// M- uildliig hiideg
+        public void MSubtract(double value) /// M- uildliig hiideg
         {
-            memory.SubtractFromMemory(index, value);
+            memory.MSubtractLast(value);
         }
 
-        public void RecallMemory(int index) /// MR uildliig hiideg
-        {
-            Result = memory.Recall(index);
+        public void MR() /// MR uildliig hiideg
+        { 
+            Result = memory.MRLast( );
         }
 
-        public void ClearMemory(int index) ///  ali neg item-iig MC hiine 
+        public void MClear() ///  ali neg item-iig MC hiine 
         {
-            memory.Clear(index);
+            memory.ClearLast( );
         }
 
-        public void ClearAllMemory() /// Bugdiig ni MC hiine
+        public void MClearAll() /// Bugdiig ni MC hiine
         {
             memory.ClearAll();
         }

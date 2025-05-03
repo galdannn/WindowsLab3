@@ -33,10 +33,10 @@ namespace CalculatorTests
         {
             var calc = new BasicCalculator();
             calc.Add(12);
-            calc.StoreToMemory();
+            calc.MS();
 
             calc.Add(5); ///result = 17
-            calc.RecallMemory(0);
+            calc.MR();
             Assert.AreEqual(12, calc.Result);
         }
 
@@ -45,10 +45,10 @@ namespace CalculatorTests
         {
             var calc = new BasicCalculator();
             calc.Add(10);
-            calc.StoreToMemory();
+            calc.MS();
 
-            calc.AddToMemory(0, 5);
-            calc.RecallMemory(0);
+            calc.MAdd(5);
+            calc.MR();
             
             
             Assert.AreEqual(15, calc.Result);
@@ -59,10 +59,10 @@ namespace CalculatorTests
         {
             var calc = new BasicCalculator();
             calc.Add(20);
-            calc.StoreToMemory();
+            calc.MS();
             
-            calc.SubtractFromMemory(0, 7);
-            calc.RecallMemory(0);
+            calc.MSubtract( 7);
+            calc.MR();
             
             Assert.AreEqual(13, calc.Result);
         }
@@ -72,11 +72,11 @@ namespace CalculatorTests
         {
             var calc = new BasicCalculator();
             calc.Add(30);
-            calc.StoreToMemory();
+            calc.MS();
 
-            calc.ClearMemory(0);
+            calc.MClear();
 
-            calc.RecallMemory(0);
+            calc.MR();
             Assert.AreEqual(0, calc.Result);
         }
 
@@ -85,12 +85,12 @@ namespace CalculatorTests
         {
             var calc = new BasicCalculator();
             calc.Add(10); 
-            calc.StoreToMemory(); 
+            calc.MS(); 
             calc.Add(20); 
-            calc.StoreToMemory();
+            calc.MS();
 
 
-            calc.ClearAllMemory();
+            calc.MClearAll();
 
             
             var stringWriter = new StringWriter();
@@ -105,7 +105,7 @@ namespace CalculatorTests
 
                
                 var output = stringWriter.ToString().Trim(); 
-                Assert.AreEqual("Cleared memory at index 0\r\nInvalid index: 0\r\nMemory is empty.", output);
+                Assert.AreEqual("Memory empty", output);
             }
             finally
             {
@@ -117,12 +117,12 @@ namespace CalculatorTests
         {
             var calc = new BasicCalculator();
             calc.Add(30);
-            calc.StoreToMemory();
+            calc.MS();
 
             calc.Add(5);
-            calc.RecallMemory(0);
+            calc.MR();
 
-            Assert.AreEqual(10, calc.Result);
+            Assert.AreEqual(30, calc.Result);
         }
     }
 }

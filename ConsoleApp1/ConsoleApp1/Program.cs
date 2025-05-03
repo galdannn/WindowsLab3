@@ -9,19 +9,19 @@ namespace CalculatorApp
             BasicCalculator calculator = new BasicCalculator();
 
             calculator.Add(10);
-            calculator.StoreToMemory();
+            calculator.MS();
             calculator.Subtract(5);
-            calculator.StoreToMemory();
+            calculator.MS();
             calculator.Add(25);
-            calculator.StoreToMemory();
+            calculator.MS();
             calculator.ShowMemory();
-            calculator.AddToMemory(0, 5);
-            calculator.SubtractFromMemory(1, 10);
+            calculator.MAdd(5);
+            calculator.MSubtract(10);
             calculator.ShowMemory();
-            calculator.RecallMemory(1);
-            calculator.ClearMemory(0);
+            calculator.MR();
+            calculator.MClear();
             calculator.ShowMemory();
-            calculator.ClearAllMemory();
+            calculator.MClearAll();
             calculator.ShowMemory();
 
         }

@@ -2,85 +2,94 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
 namespace CalculatorLibrary
-{
+{   /// <summary>
+/// odoohondoo console deer hiij baigaa bolhoor m+, m-, mr, c zereg uildluud ni hamgiin suuliin memoryItem deer hiigdene 
+/// </summary>
     internal class Memory
     {
         private List<MemoryItem> memoryItems;
 
         public Memory()
         {
-            memoryItems = new List<MemoryItem>(); /// shine hooson memoryitem-iin list uusgene  
-
+            memoryItems = new List<MemoryItem>();
         }
+
         public void Store(double value)
         {
-            memoryItems.Add(new MemoryItem(value)); ///MemoryItem uusgeed ehend uusgesen listendee nemne
-            Console.WriteLine($"Stored: {value} at index {memoryItems.Count - 1}");
+            memoryItems.Add(new MemoryItem(value));
         }
-        public void AddToMemory(int index, double value) ///M+
+        
+        public void MAddLast(double value) 
         {
-            if (IsValidIndex(index))
+            if (HasMemoryItem())
             {
-                memoryItems[index] = new MemoryItem(memoryItems[index].Value + value);
-                Console.WriteLine($"Added {value} to memory at index {index}. New value: {memoryItems[index].Value}");
+                memoryItems.Last().Add(value);
+            }
+            
+        }
+
+        public void MSubtractLast(double value)
+        {
+            if (HasMemoryItem())
+            {
+
+                memoryItems.Last().Subtract(value);
             }
         }
-        public void SubtractFromMemory(int index, double value) ///M-
+
+        public double MRLast()
         {
-            if (IsValidIndex(index))
+            if (HasMemoryItem())
             {
-                memoryItems[index] = new MemoryItem(memoryItems[index].Value - value);
-                Console.WriteLine($"Subtracted {value} from memory at index {index}. New value: {memoryItems[index].Value}");
-            }
-        }
-        public double Recall(int index) ///MR
-        {
-            if (IsValidIndex(index))
-            {
-                Console.WriteLine($"Recalled value at index {index}: {memoryItems[index].Value}");
-                return memoryItems[index].Value;
+                return memoryItems.Last().Value;
             }
             return 0;
+               
+            
         }
-        public void Clear(int index) ///MC
+
+        public void ClearLast()
         {
-            if (IsValidIndex(index))
+            if (HasMemoryItem())
             {
-                Console.WriteLine($"Cleared memory at index {index}");
-                memoryItems.RemoveAt(index);
+                memoryItems.Last().Clear();
             }
         }
-        public void ClearAll() ///MC ALL
+
+        public void ClearAll()
         {
             memoryItems.Clear();
-            Console.WriteLine("Memory cleared.");
         }
-        public void DisplayMemory() ///Medeellee haruulah
+
+        public void DisplayMemory()
         {
-            if (memoryItems.Count == 0)
+            if (!HasMemoryItem())
             {
-                Console.WriteLine("Memory is empty.");
+                Console.WriteLine("Memory empty");
                 return;
             }
 
             Console.WriteLine("Memory Items:");
-            for (int i = 0; i < memoryItems.Count; i++)
+            foreach (var item in memoryItems)
             {
-                Console.WriteLine($"[{i}] {memoryItems[i].Timestamp}: {memoryItems[i].Value}");
+                Console.WriteLine($"{item.Timestamp}: {item.Value}");   
             }
         }
-        private bool IsValidIndex(int index) ///uildel hiihiig hussen item ni listend baigaa esehiig shalgana.
+        /// <summary>
+        /// MemoryItem baigaa esehiig shalgadag tuslah function
+        /// </summary>
+        /// <returns></returns>
+        private bool HasMemoryItem()
         {
-            if (index >= 0 && index < memoryItems.Count)
-                return true;
-
-            Console.WriteLine($"Invalid index: {index}");
-            return false;
+            return memoryItems.Count > 0;       
         }
+
+        
     }
 }
