@@ -6,33 +6,43 @@ using System.Threading.Tasks;
 
 namespace CalculatorLibrary
 {
+    /// <summary>
+    /// memory-d haryalagdah object
+    /// </summary>
     internal class MemoryItem
     {
+        /// <summary>
+        /// property
+        /// </summary>
         public double Value { get; private set; }
-        public DateTime Timestamp { get; private set; }
-
+        
+        /// <summary>
+        /// memory-d haryalagdah object
+        /// </summary>
+        /// <param name="value"></param>
         public MemoryItem(double value)
         {
             Value = value;
-            Timestamp = DateTime.Now;
+            
         }
-
+        /// <summary>
+        /// nemeh uildel
+        /// </summary>
+        /// <param name="value"></param>
         public void Add(double value)
         {
             Value += value;
-            Timestamp = DateTime.Now; 
+           
         }
-
+        /// <summary>
+        /// hasah uildel
+        /// </summary>
+        /// <param name="value"></param>
         public void Subtract(double value)
         {
             Value -= value;
-            Timestamp = DateTime.Now;
+            
         }
-
-        public void Clear()
-        {
-            Value = 0;
-            Timestamp = DateTime.Now;
-        }
+        
     }
 }

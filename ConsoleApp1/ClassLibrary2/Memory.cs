@@ -19,12 +19,18 @@ namespace CalculatorLibrary
         {
             memoryItems = new List<MemoryItem>();
         }
-
+        /// <summary>
+        /// ms
+        /// </summary>
+        /// <param name="value"></param>
         public void Store(double value)
         {
             memoryItems.Add(new MemoryItem(value));
         }
-        
+        /// <summary>
+        /// m+
+        /// </summary>
+        /// <param name="value"></param>
         public void MAddLast(double value) 
         {
             if (HasMemoryItem())
@@ -34,6 +40,10 @@ namespace CalculatorLibrary
             
         }
 
+        /// <summary>
+        /// m-
+        /// </summary>
+        /// <param name="value"></param>
         public void MSubtractLast(double value)
         {
             if (HasMemoryItem())
@@ -42,7 +52,10 @@ namespace CalculatorLibrary
                 memoryItems.Last().Subtract(value);
             }
         }
-
+        /// <summary>
+        /// mr
+        /// </summary>
+        /// <returns></returns>
         public double MRLast()
         {
             if (HasMemoryItem())
@@ -53,20 +66,26 @@ namespace CalculatorLibrary
                
             
         }
-
+        /// <summary>
+        /// mc
+        /// </summary>
         public void ClearLast()
         {
             if (HasMemoryItem())
             {
-                memoryItems.Last().Clear();
+                memoryItems.RemoveAt(memoryItems.Count - 1);
             }
         }
-
+        /// <summary>
+        /// mcAll
+        /// </summary>
         public void ClearAll()
         {
             memoryItems.Clear();
         }
-
+        /// <summary>
+        /// Delgets
+        /// </summary>
         public void DisplayMemory()
         {
             if (!HasMemoryItem())
@@ -78,7 +97,7 @@ namespace CalculatorLibrary
             Console.WriteLine("Memory Items:");
             foreach (var item in memoryItems)
             {
-                Console.WriteLine($"{item.Timestamp}: {item.Value}");   
+                Console.WriteLine($"{item.Value}");   
             }
         }
         /// <summary>

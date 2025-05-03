@@ -4,6 +4,9 @@ namespace CalculatorApp
 {
     internal class Program
     {
+       /// <summary>
+       /// Toonii mashiniig ashiglaj baigaa undsen programm.
+       /// </summary>
         static void Main()
         {
             BasicCalculator calculator = new BasicCalculator();

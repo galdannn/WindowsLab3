@@ -7,8 +7,12 @@ using System.IO;
 
 namespace CalculatorTests
 {
+    /// <summary>
+    /// Calculator-iin undsen functionality-g shalgah testuudiin tsugluulga
+    /// </summary>
     [TestClass]
-    public class BasicCalculatorTests
+    
+    public class BasicCalculatorTests 
     {
         [TestMethod]
         public void TestAddition()
@@ -66,54 +70,56 @@ namespace CalculatorTests
             
             Assert.AreEqual(13, calc.Result);
         }
-
+        /// <summary>
+        /// MC test
+        /// </summary>
         [TestMethod]
-        public void TestClearSpecificMemory()
+        
+        public void TestClearMemory()
         {
-            var calc = new BasicCalculator();
-            calc.Add(30);
-            calc.MS();
+            var calculator = new BasicCalculator();
+            calculator.Add(10);
+            calculator.MS();
+            calculator.MClear();
 
-            calc.MClear();
-
-            calc.MR();
-            Assert.AreEqual(0, calc.Result);
+            
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                calculator.ShowMemory();
+                var output = sw.ToString().Trim();
+                Assert.AreEqual("Memory empty", output);
+            }
         }
 
+
+        /// <summary>
+        /// MemoryClearAll functionality-g shalgah test. Zovhon hooson uyd hevleh stringiig shalgana.
+        /// </summary>
         [TestMethod]
         public void TestClearAllMemory()
         {
-            var calc = new BasicCalculator();
-            calc.Add(10); 
-            calc.MS(); 
-            calc.Add(20); 
-            calc.MS();
+            var calculator = new BasicCalculator();
+            calculator.Add(10);
+            calculator.MS();
+            calculator.Add(20);
+            calculator.MS();
+            calculator.MClearAll();
 
-
-            calc.MClearAll();
-
-            
-            var stringWriter = new StringWriter();
-            var originalConsoleOut = Console.Out; 
-
-            try
+            using (var sw = new StringWriter())
             {
-                Console.SetOut(stringWriter);  
-
-               
-                calc.ShowMemory();  
-
-               
-                var output = stringWriter.ToString().Trim(); 
+                Console.SetOut(sw);
+                calculator.ShowMemory();
+                var output = sw.ToString().Trim();
                 Assert.AreEqual("Memory empty", output);
             }
-            finally
-            {
-                
-                Console.SetOut(originalConsoleOut);
-            }
         }
+
+        /// <summary>
+        /// MRTest
+        /// </summary>
         public void TestRecallMemory()
+
         {
             var calc = new BasicCalculator();
             calc.Add(30);
