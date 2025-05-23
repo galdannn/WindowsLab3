@@ -74,21 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICalculations.cs",
-              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\ICalculations.cs",
-              "RelativeDocumentMoniker": "ClassLibrary2\\ICalculations.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\ICalculations.cs",
-              "RelativeToolTip": "ClassLibrary2\\ICalculations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T08:40:39.743Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -134,11 +121,28 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Program.cs*",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBgAAABKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T09:20:41.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICalculations.cs",
+              "DocumentMoniker": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\ICalculations.cs",
+              "RelativeDocumentMoniker": "ClassLibrary2\\ICalculations.cs",
+              "ToolTip": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\ICalculations.cs",
+              "RelativeToolTip": "ClassLibrary2\\ICalculations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T08:40:39.743Z",
               "EditorCaption": ""
             },
             {
@@ -270,10 +274,6 @@
               "RelativeToolTip": "ConsoleApp1\\AbsCalcs.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T09:45:29.599Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

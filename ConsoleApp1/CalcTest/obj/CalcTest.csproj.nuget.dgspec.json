@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj": {}
+    "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\CalcTest\\CalcTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj": {
+    "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\CalcTest\\CalcTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
+        "projectUniqueName": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
         "projectName": "CalcTest",
-        "projectPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
+        "projectPath": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
         "packagesPath": "C:\\Users\\galda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\obj\\",
+        "outputPath": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\CalcTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj": {
-                "projectPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj"
+              "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj": {
+                "projectPath": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj": {
+    "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj",
         "projectName": "CalculatorLibrary",
-        "projectPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj",
+        "projectPath": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\ClassLibrary2\\CalculatorLibrary.csproj",
         "packagesPath": "C:\\Users\\galda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\ClassLibrary2\\obj\\",
+        "outputPath": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\ClassLibrary2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+WaGHKJGVt8=",
+  "dgSpecHash": "FIQXqZkGmLQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\galda\\source\\repos\\WindowsLab2\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
+  "projectFilePath": "C:\\Users\\galda\\Source\\Repos\\WindowsLab3\\ConsoleApp1\\CalcTest\\CalcTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galda\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\galda\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
